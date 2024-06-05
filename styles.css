@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#new-task {
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+
+#task-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list .list-group-item .task-text {
+    flex-grow: 1;
+}
+
+#task-list .list-group-item .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.completed .task-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+footer {
+    padding: 5px 0;
+    background-color: #f1f1f1;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;;
+}
+
+@media(max-width: 768px) {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+
+    }
+    #new-task {
+        max-width: 768px;
+        width: 100%;
+    }
+    #add-task {
+        max-width: 768px;
+        width: 98%;
+    }
+    footer {
+        padding: 5px 0;
+        background-color: #f1f1f1;
+        position:fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+}
