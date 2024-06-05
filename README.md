@@ -22,6 +22,6 @@ Temos aqui uma imagem Tarefa Excluida.
 ![exer1](https://raw.githubusercontent.com/FabioCCamarg/LP_AF/main/image/Tarefa_excluida.png)
 
 ## ETAPA 5:
-Temos aqui uma imagem da aplicação sendo exibida em um celular.
+Temos aqui uma imagem da aplicação sendo exibida em um celular com 768 x 520.
 
 ![exer1](https://raw.githubusercontent.com/FabioCCamarg/LP_AF/main/image/Responsivo.png)
